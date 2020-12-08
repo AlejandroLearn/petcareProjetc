@@ -1,5 +1,40 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap");
+* {
+  color: #252626;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+header {
+  background-color: #6ecfc3;
+  padding: 5px;
+}
+header form input[type=text] {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 15px 20px;
+  outline-style: none;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+}
+header form button:focus {
+  outline: 0px;
+  outline: none;
+}
+header ul li {
+  position: relative;
+  display: inline;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

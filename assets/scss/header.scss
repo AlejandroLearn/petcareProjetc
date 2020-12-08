@@ -1,0 +1,32 @@
+header{
+    background-color: $primaria;
+    padding: 5px;
+
+    form{
+        input[type="text"]{
+            background-color: $branco;
+            width: 100%;
+            border-radius: 100px;
+            border: none;
+            padding: 15px 20px;
+            outline-style: none;
+        }
+        button {
+            background: none;
+            border: none;
+            position: absolute;
+            right: 30px;
+        }
+        button:focus{ 
+            outline:0px;
+            outline:none  
+        }
+    }
+
+    ul{
+        li{
+            position: relative;
+            display: inline;
+        }
+    }
+}
