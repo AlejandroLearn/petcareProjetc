@@ -8,7 +8,7 @@ header{
             width: 100%;
             border-radius: 100px;
             border: none;
-            padding: 15px 20px;
+            padding: 13px 20px;
             outline-style: none;
         }
         button {
@@ -23,10 +23,9 @@ header{
         }
     }
 
-    ul{
-        li{
-            position: relative;
-            display: inline;
-        }
-    }
+  .fly{
+      position: absolute;
+      right: 0;
+  }
 }
+

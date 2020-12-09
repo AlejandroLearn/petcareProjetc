@@ -1,11 +1,18 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap");
-* {
+.menufont a {
   color: #252626;
+  font-size: 35px;
+  padding: 10px;
 }
 
-a {
-  text-decoration: none !important;
+.menufont a:hover {
+  color: initial;
+  text-decoration: none;
+}
+
+.backmenu {
+  padding: 80px;
 }
 
 header {
@@ -17,7 +24,7 @@ header form input[type=text] {
   width: 100%;
   border-radius: 100px;
   border: none;
-  padding: 15px 20px;
+  padding: 13px 20px;
   outline-style: none;
 }
 header form button {
@@ -30,9 +37,9 @@ header form button:focus {
   outline: 0px;
   outline: none;
 }
-header ul li {
-  position: relative;
-  display: inline;
+header .fly {
+  position: absolute;
+  right: 0;
 }
 
 /*!
